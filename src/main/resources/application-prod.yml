@@ -6,7 +6,8 @@ spring:
     activate:
       on-profile: prod
   redis:
-    host: xxxxxx
+    host:
+
     port: 6379
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
